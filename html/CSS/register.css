@@ -1,0 +1,41 @@
+/*CSS File For Sign-Up webpage*/
+#body-color{
+background-color:#FFFFFF;
+}
+h2 {
+
+text-align:center;
+
+margin:-10px -40px;
+padding:15px
+}
+#Sign-Up{
+background-image:url('');
+background-size:500px 500px;
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-position:center;
+
+
+margin-top:150px;
+margin-bottom:150px;
+margin-right:150px;
+margin-left:450px;
+padding:9px 35px; 
+}
+#button{
+width:100%;
+background-color:#FFBC00;
+color:#fff;
+border:2px solid #FFCB00;
+padding:10px;
+font-size:20px;
+margin-left:100px;
+cursor:pointer;
+border-radius:5px;
+margin-bottom:15px
+}
+a {
+text-decoration:none;
+color:#6495ed
+}

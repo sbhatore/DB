@@ -1,0 +1,62 @@
+<head>
+ <link rel="stylesheet" type="text/css" href="atable.css">
+<script>
+function go()
+{
+/*var xmlhttp;
+  xmlhttp=new XMLHttpRequest();
+xmlhttp.onreadystatechange=function()
+  {
+  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+    {
+    document.getElementById("my").innerHTML=xmlhttp.responseText;
+    }
+  }
+xmlhttp.open("POST","customer.php?name="+all+"&usr="+curr_user+"&location="+loc+"&cmnt="+cmnt,true);
+xmlhttp.send();
+}*/
+	 document.getElementById("cust").action = "customer.php";
+}
+</script>
+
+</head>
+	<table border="1">
+	  <tr>
+	    <td align="center">Form Input Customer Data</td>
+	  </tr>
+	  <tr>
+	    <td>
+	      <table>
+	        <form method="post" id ="cust" action="customer.php">
+	        <tr>
+	          <td>Name</td>
+	          <td><input type="text" name="name" size="20">
+	          </td>
+	        </tr>
+	        <tr>
+	        	<tr>
+	          <td>Address</td>
+	          <td><input type="text" name="add" size="20">
+	          </td>
+	        </tr>
+	        <tr>
+		<td>Contact No.</td>
+		<td><input type="text" name="contact" size="40">
+		</td>
+		</tr>
+		<tr>
+		<td>Dues</td>
+		<td><input type="text" name="dues" size="20">
+		</td>
+		</tr>
+
+		<tr>
+		<td></td>
+	          <td align="right"><input type="submit"
+	          name="submit" value="Sent"></td>
+	        </tr>
+	        </table>
+	      </td>
+	    </tr>
+	</table>
+<div id="my"></div>
